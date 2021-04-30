@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name AR2ISS)(type Legacy)(uri ${KICAD_PROJECT}/AR2ISS_kicadLib/AR2ISS.lib)(options "")(descr ""))
+)

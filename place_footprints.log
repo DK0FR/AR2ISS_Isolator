@@ -1,0 +1,12 @@
+04-19 15:20:42 place_footprints.action_place_footprints 414:Plugin executed on: 'win32'
+04-19 15:20:42 place_footprints.action_place_footprints 415:Plugin executed with python version: '2.7.18 (default, Apr 20 2020, 16:57:11)  [GCC 9.3.0 64 bit (AMD64)]'
+04-19 15:20:42 place_footprints.action_place_footprints 416:KiCad build version: (5.1.9)-1
+04-19 15:20:42 place_footprints.action_place_footprints 417:Place footprints plugin version: 54 started
+04-19 15:20:45 place_footprints.place_footprints 213:getting project hierarchy from schematics
+04-19 15:20:45 place_footprints.place_footprints 228:getting a list of all footprints on board
+04-19 15:20:46 place_footprints.place_footprints 254:construcing a list of sheets suitable for replication on level:u'RX', file:u'ISO1500.sch'
+04-19 15:20:46 place_footprints.place_footprints 287:suitable sheets are:[[u'SignalsToSlave', u'IsolatorGroup_A', u'PTT_Main'], [u'SignalsToSlave', u'IsolatorGroup_A', u'PTT_Sub'], [u'SignalsToSlave', u'IsolatorGroup_A', u'TX'], [u'SignalsToSlave', u'IsolatorGroup_B', u'PTT_Main'], [u'SignalsToSlave', u'IsolatorGroup_B', u'PTT_Sub'], [u'SignalsToSlave', u'IsolatorGroup_B', u'RX'], [u'SignalsToSlave', u'IsolatorGroup_B', u'TX']]
+04-19 15:20:52 place_footprints.action_place_footprints 654:Modules to place: ['U5', u'U1', u'U2', u'U3', u'U4', u'U6', u'U7', u'U8']
+04-19 15:20:52 place_footprints.place_footprints 380:Starting placing with linear layout
+04-19 15:20:52 place_footprints.action_place_footprints 696:Placing complete
+04-19 15:20:52 place_footprints.action_place_footprints 697:Sorted_modules: [u'U1', u'U2', u'U3', u'U4', 'U5', u'U6', u'U7', u'U8']

@@ -1,0 +1,5 @@
+04-21 21:20:58 swap_pins.action_swap_pins 87:Plugin executed on: 'win32'
+04-21 21:20:58 swap_pins.action_swap_pins 88:Plugin executed with python version: '2.7.18 (default, Apr 20 2020, 16:57:11)  [GCC 9.3.0 64 bit (AMD64)]'
+04-21 21:20:58 swap_pins.action_swap_pins 89:KiCad build version: (5.1.9)-1
+04-21 21:20:58 swap_pins.action_swap_pins 90:Swap pins plugin version: 15 started
+04-21 21:21:00 swap_pins.action_swap_pins 106:Action plugin canceled as eeschema was not closed
