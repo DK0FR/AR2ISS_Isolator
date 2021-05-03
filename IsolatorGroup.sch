@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 19
+Sheet 12 31
 Title ""
 Date ""
 Rev ""
@@ -167,7 +167,7 @@ Wire Wire Line
 	4450 5350 4550 5350
 Wire Wire Line
 	4450 3750 4550 3750
-Text HLabel 4750 3500 0    50   Input ~ 0
+Text HLabel 4750 2600 0    50   Input ~ 0
 TX
 Text HLabel 4750 4300 0    50   Input ~ 0
 PTT_Main
@@ -197,24 +197,24 @@ F 3 "" H 7650 3900 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	4750 2600 4950 2600
-Text HLabel 4750 2600 0    50   Output ~ 0
+Text HLabel 4750 3500 0    50   Output ~ 0
 RX
 Wire Wire Line
 	4450 2950 4550 2950
 $Comp
 L power:GND #PWR?
 U 1 1 60781A82
-P 4450 2950
+P 4450 3750
 AR Path="/607585FC/60781A82" Ref="#PWR?"  Part="1" 
 AR Path="/607F13E3/60781A82" Ref="#PWR?"  Part="1" 
 AR Path="/6083EA55/608421E5/60781A82" Ref="#PWR040"  Part="1" 
 AR Path="/6083EA55/608421F3/60781A82" Ref="#PWR?"  Part="1" 
 AR Path="/6083EA55/608DE7E0/60781A82" Ref="#PWR020"  Part="1" 
-F 0 "#PWR040" H 4450 2700 50  0001 C CNN
-F 1 "GND" H 4455 2777 50  0000 C CNN
-F 2 "" H 4450 2950 50  0001 C CNN
-F 3 "" H 4450 2950 50  0001 C CNN
-	1    4450 2950
+F 0 "#PWR040" H 4450 3500 50  0001 C CNN
+F 1 "GND" H 4455 3577 50  0000 C CNN
+F 2 "" H 4450 3750 50  0001 C CNN
+F 3 "" H 4450 3750 50  0001 C CNN
+	1    4450 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -619,7 +619,7 @@ Text HLabel 6300 1350 0    50   Input ~ 0
 Wire Wire Line
 	6300 1350 6350 1350
 Connection ~ 6350 1350
-Text HLabel 4450 3750 0    50   Input ~ 0
+Text HLabel 4450 2950 0    50   Input ~ 0
 5V
 Text HLabel 4450 4550 0    50   Input ~ 0
 5V

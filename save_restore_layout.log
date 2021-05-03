@@ -1,5 +1,66 @@
-04-19 14:34:51 save_restore_layout.action_save_restore_layout 160:Plugin executed on: 'win32'
-04-19 14:34:51 save_restore_layout.action_save_restore_layout 161:Plugin executed with python version: '2.7.18 (default, Apr 20 2020, 16:57:11)  [GCC 9.3.0 64 bit (AMD64)]'
-04-19 14:34:51 save_restore_layout.action_save_restore_layout 162:KiCad build version: (5.1.9)-1
-04-19 14:34:51 save_restore_layout.action_save_restore_layout 163:Save/Restore Layout plugin version: 51 started
-04-19 14:34:54 save_restore_layout.action_save_restore_layout 274:Restore layout chosen
+05-03 19:19:56 save_restore_layout.action_save_restore_layout 160:Plugin executed on: 'win32'
+05-03 19:19:56 save_restore_layout.action_save_restore_layout 161:Plugin executed with python version: '2.7.18 (default, Apr 20 2020, 16:57:11)  [GCC 9.3.0 64 bit (AMD64)]'
+05-03 19:19:56 save_restore_layout.action_save_restore_layout 162:KiCad build version: (5.1.9)-1
+05-03 19:19:56 save_restore_layout.action_save_restore_layout 163:Save/Restore Layout plugin version: 51 started
+05-03 19:19:58 save_restore_layout.action_save_restore_layout 274:Restore layout chosen
+05-03 19:20:00 save_restore_layout.save_restore_layout 393:Getting board info
+05-03 19:20:00 save_restore_layout.save_restore_layout 395:Getting schematics info
+05-03 19:20:00 save_restore_layout.save_restore_layout 180:getting project hierarchy from schematics
+05-03 19:20:00 save_restore_layout.save_restore_layout 182:Project hierarchy looks like:
+{u'607938CE': [u'RS485Tranceiver2', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\RS485Tranceiver.sch'], u'6083EA55': [u'SignalsToSlave', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\SignalsToSlave.sch'], u'6087803B': [u'PTT_Sub', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\ISO1500.sch'], u'6087202B': [u'TX', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\ISO1500.sch'], u'60920279': [u'sheet60920273', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\filter.sch'], u'608421E5': [u'IsolatorGroup_A', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\IsolatorGroup.sch'], u'60A3C1D7': [u'5V_Non_Iso_B', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\5V_Non_Iso.sch'], u'60795F15': [u'RS485Tranceiver3', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\RS485Tranceiver.sch'], u'60A3C1C6': [u'5V_Non_Iso_A', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\5V_Non_Iso.sch'], u'6077B0D4': [u'RX', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\ISO1500.sch'], u'60727BD1': [u'RS485Tranceiver1', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\RS485Tranceiver.sch'], u'6091A70E': [u'filter', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\filter.sch'], u'60843FDF': [u'MasterInput', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\RS422.sch'], u'60797D2F': [u'RS485Tranceiver4', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\RS485Tranceiver.sch'], u'608DE7E0': [u'IsolatorGroup_B', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\IsolatorGroup.sch'], u'608751BF': [u'PTT_Main', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\ISO1500.sch']}
+05-03 19:20:00 save_restore_layout.save_restore_layout 397:Getting layout info
+05-03 19:20:00 save_restore_layout.save_restore_layout 256:getting a list of all footprints on board
+05-03 19:20:00 save_restore_layout.save_restore_layout 399:Updating layout info with schematics info
+05-03 19:20:00 save_restore_layout.save_restore_layout 739:Loading saved design
+05-03 19:20:00 save_restore_layout.save_restore_layout 746:Source level is:[u'RS422.sch', u'RS485Tranceiver.sch', u'filter.sch']
+05-03 19:20:00 save_restore_layout.save_restore_layout 753:Destination footprint is:u'J17'
+05-03 19:20:00 save_restore_layout.save_restore_layout 754:Destination levels available are:[u'RS422.sch', u'RS485Tranceiver.sch', u'filter.sch']
+05-03 19:20:00 save_restore_layout.save_restore_layout 765:Destination level is:[u'RS422.sch', u'RS485Tranceiver.sch', u'filter.sch']
+05-03 19:20:00 save_restore_layout.save_restore_layout 770:All sch files required are: [u'filter.sch']
+05-03 19:20:00 save_restore_layout.save_restore_layout 772:Getting current schematics hash
+05-03 19:20:00 save_restore_layout.save_restore_layout 782:Source hash is:'669baebdd64dd7c1d6bcb89baa2a8ee5'
+05-03 19:20:00 save_restore_layout.save_restore_layout 783:Destination hash is: '669baebdd64dd7c1d6bcb89baa2a8ee5'
+05-03 19:20:01 save_restore_layout.save_restore_layout 800:Get layout data from saved board
+05-03 19:20:01 save_restore_layout.save_restore_layout 256:getting a list of all footprints on board
+05-03 19:20:01 save_restore_layout.save_restore_layout 504:Replicating footprints
+05-03 19:20:01 save_restore_layout.save_restore_layout 607:Replicating tracks
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 1, u'GND'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 163, u'Net-(C76-Pad1)'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 163, u'Net-(C76-Pad1)'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 163, u'Net-(C76-Pad1)'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 163, u'Net-(C76-Pad1)'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 164, u'Net-(C77-Pad1)'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 165, u'Net-(C78-Pad1)'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 165, u'Net-(C78-Pad1)'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 165, u'Net-(C78-Pad1)'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 166, u'Net-(C79-Pad1)'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 166, u'Net-(C79-Pad1)'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 166, u'Net-(C79-Pad1)'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 183, u'Net-(J17-Pad1)'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 183, u'Net-(J17-Pad1)'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 66, u'/MasterInput/RS485Tranceiver1/B_in'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 66, u'/MasterInput/RS485Tranceiver1/B_in'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 66, u'/MasterInput/RS485Tranceiver1/B_in'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 66, u'/MasterInput/RS485Tranceiver1/B_in'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 66, u'/MasterInput/RS485Tranceiver1/B_in'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 66, u'/MasterInput/RS485Tranceiver1/B_in'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 66, u'/MasterInput/RS485Tranceiver1/B_in'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 66, u'/MasterInput/RS485Tranceiver1/B_in'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 65, u'/MasterInput/RS485Tranceiver1/A_in'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 65, u'/MasterInput/RS485Tranceiver1/A_in'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 65, u'/MasterInput/RS485Tranceiver1/A_in'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 65, u'/MasterInput/RS485Tranceiver1/A_in'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 65, u'/MasterInput/RS485Tranceiver1/A_in'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 65, u'/MasterInput/RS485Tranceiver1/A_in'
+05-03 19:20:01 save_restore_layout.save_restore_layout 643:Setting track net to: 65, u'/MasterInput/RS485Tranceiver1/A_in'
+05-03 19:20:01 save_restore_layout.save_restore_layout 649:Replicating zones
+05-03 19:20:01 save_restore_layout.save_restore_layout 703:Replicating text
+05-03 19:20:01 save_restore_layout.save_restore_layout 720:Replicating drawings

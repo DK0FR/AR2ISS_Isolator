@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 19
+Sheet 21 31
 Title ""
 Date ""
 Rev ""
@@ -103,11 +103,11 @@ F0 "RS485Tranceiver1" 50
 F1 "RS485Tranceiver.sch" 50
 F2 "A_in" I L 5150 1400 50 
 F3 "B_in" I L 5150 1800 50 
-F4 "MODE" I R 5850 1500 50 
+F4 "MODE" I R 5850 1800 50 
 F5 "VCC" I R 5850 1400 50 
 F6 "DATA" B R 5850 1650 50 
 $EndSheet
-Text HLabel 5950 1650 2    50   Input ~ 0
+Text HLabel 5950 3350 2    50   Input ~ 0
 TX_1
 Wire Wire Line
 	5950 1650 5850 1650
@@ -117,14 +117,9 @@ Wire Wire Line
 	6150 1400 6150 1200
 Wire Wire Line
 	6150 1200 7100 1200
-Wire Wire Line
-	5850 1500 6150 1500
-Wire Wire Line
-	6150 1500 6150 1400
-Connection ~ 6150 1400
-Text HLabel 5950 6850 2    50   Output ~ 0
+Text HLabel 5950 5150 2    50   Output ~ 0
 RX_2
-Text HLabel 5950 3350 2    50   Output ~ 0
+Text HLabel 5950 1650 2    50   Output ~ 0
 RX_1
 Wire Wire Line
 	7100 1000 7100 1200
@@ -147,7 +142,7 @@ F0 "RS485Tranceiver4" 50
 F1 "RS485Tranceiver.sch" 50
 F2 "A_in" I L 5150 6600 50 
 F3 "B_in" I L 5150 7000 50 
-F4 "MODE" I R 5850 7000 50 
+F4 "MODE" I R 5850 6700 50 
 F5 "VCC" I R 5850 6600 50 
 F6 "DATA" B R 5850 6850 50 
 $EndSheet
@@ -185,40 +180,32 @@ F0 "RS485Tranceiver2" 50
 F1 "RS485Tranceiver.sch" 50
 F2 "A_in" I L 5150 3100 50 
 F3 "B_in" I L 5150 3500 50 
-F4 "MODE" I R 5850 3500 50 
+F4 "MODE" I R 5850 3200 50 
 F5 "VCC" I R 5850 3100 50 
 F6 "DATA" B R 5850 3350 50 
 $EndSheet
 $Comp
 L power:GND #PWR061
 U 1 1 607AD833
-P 6200 3750
-F 0 "#PWR061" H 6200 3500 50  0001 C CNN
-F 1 "GND" H 6205 3577 50  0000 C CNN
-F 2 "" H 6200 3750 50  0001 C CNN
-F 3 "" H 6200 3750 50  0001 C CNN
-	1    6200 3750
+P 6250 2050
+F 0 "#PWR061" H 6250 1800 50  0001 C CNN
+F 1 "GND" H 6255 1877 50  0000 C CNN
+F 2 "" H 6250 2050 50  0001 C CNN
+F 3 "" H 6250 2050 50  0001 C CNN
+	1    6250 2050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6200 3750 6200 3500
-Wire Wire Line
-	6200 3500 5850 3500
 $Comp
 L power:GND #PWR062
 U 1 1 607B1C3E
-P 6200 7250
-F 0 "#PWR062" H 6200 7000 50  0001 C CNN
-F 1 "GND" H 6205 7077 50  0000 C CNN
-F 2 "" H 6200 7250 50  0001 C CNN
-F 3 "" H 6200 7250 50  0001 C CNN
-	1    6200 7250
+P 6200 5550
+F 0 "#PWR062" H 6200 5300 50  0001 C CNN
+F 1 "GND" H 6205 5377 50  0000 C CNN
+F 2 "" H 6200 5550 50  0001 C CNN
+F 3 "" H 6200 5550 50  0001 C CNN
+	1    6200 5550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6200 7250 6200 7000
-Wire Wire Line
-	6200 7000 5850 7000
 Wire Wire Line
 	7100 4700 7100 6400
 $Comp
@@ -256,13 +243,13 @@ F0 "RS485Tranceiver3" 50
 F1 "RS485Tranceiver.sch" 50
 F2 "A_in" I L 5150 4900 50 
 F3 "B_in" I L 5150 5300 50 
-F4 "MODE" I R 5850 5000 50 
+F4 "MODE" I R 5850 5300 50 
 F5 "VCC" I R 5850 4900 50 
 F6 "DATA" B R 5850 5150 50 
 $EndSheet
 Wire Wire Line
 	5950 5150 5850 5150
-Text HLabel 5950 5150 2    50   Input ~ 0
+Text HLabel 5950 6850 2    50   Input ~ 0
 TX_2
 Wire Wire Line
 	5850 4900 6150 4900
@@ -291,4 +278,22 @@ Text HLabel 7700 1000 2    50   Input ~ 0
 5V_A
 Text HLabel 7650 4700 2    50   Input ~ 0
 5V_B
+Wire Wire Line
+	6250 2050 6250 1800
+Wire Wire Line
+	6250 1800 5850 1800
+Wire Wire Line
+	5850 3200 6150 3200
+Wire Wire Line
+	6150 3200 6150 3100
+Connection ~ 6150 3100
+Wire Wire Line
+	6200 5550 6200 5300
+Wire Wire Line
+	6200 5300 5850 5300
+Wire Wire Line
+	5850 6700 6150 6700
+Wire Wire Line
+	6150 6700 6150 6600
+Connection ~ 6150 6600
 $EndSCHEMATC
