@@ -173,10 +173,6 @@ Wire Wire Line
 Connection ~ 2450 3150
 Wire Wire Line
 	2450 3150 2450 3200
-Text HLabel 4950 2950 2    50   Output ~ 0
-B
-Text HLabel 4900 3400 2    50   Output ~ 0
-A
 Text HLabel 2100 2050 1    50   Input ~ 0
 5V
 Text HLabel 5150 1200 1    50   Input ~ 0
@@ -265,6 +261,17 @@ Text HLabel 5150 1850 3    50   Input ~ 0
 GND_ISO
 Text HLabel 3850 3600 3    50   Input ~ 0
 GND_ISO
+Connection ~ 3850 3400
+Wire Wire Line
+	4150 3400 3850 3400
+Wire Wire Line
+	3650 3200 4150 3200
+Wire Wire Line
+	3650 3100 4150 3100
+Wire Wire Line
+	4750 3400 4900 3400
+Wire Wire Line
+	4750 2950 4950 2950
 $Sheet
 S 4150 2850 600  650 
 U 6091A70E
@@ -276,15 +283,8 @@ F4 "A_Out" I L 4150 3200 50
 F5 "B_Out" I L 4150 3100 50 
 F6 "GND" I L 4150 3400 50 
 $EndSheet
-Wire Wire Line
-	4750 2950 4950 2950
-Wire Wire Line
-	4750 3400 4900 3400
-Wire Wire Line
-	3650 3100 4150 3100
-Wire Wire Line
-	3650 3200 4150 3200
-Wire Wire Line
-	4150 3400 3850 3400
-Connection ~ 3850 3400
+Text HLabel 4900 3400 2    50   Output ~ 0
+A
+Text HLabel 4950 2950 2    50   Output ~ 0
+B
 $EndSCHEMATC
