@@ -1,34 +1,58 @@
-05-03 19:59:36 replicate_layout.action_replicate_layout 305:Plugin executed on: 'win32'
-05-03 19:59:36 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '2.7.18 (default, Apr 20 2020, 16:57:11)  [GCC 9.3.0 64 bit (AMD64)]'
-05-03 19:59:36 replicate_layout.action_replicate_layout 307:KiCad build version: (5.1.9)-1
-05-03 19:59:36 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 70 started
-05-03 19:59:36 replicate_layout.action_replicate_layout 340:Preparing replicator with U5 as a reference
-05-03 19:59:36 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
-05-03 19:59:37 replicate_layout.replicatelayout 217:Project hierarchy looks like:
+05-13 13:44:46 replicate_layout.action_replicate_layout 305:Plugin executed on: 'win32'
+05-13 13:44:46 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '2.7.18 (default, Apr 20 2020, 16:57:11)  [GCC 9.3.0 64 bit (AMD64)]'
+05-13 13:44:46 replicate_layout.action_replicate_layout 307:KiCad build version: (5.1.9)-1
+05-13 13:44:46 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 70 started
+05-13 13:44:46 replicate_layout.action_replicate_layout 340:Preparing replicator with U6 as a reference
+05-13 13:44:46 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+05-13 13:44:46 replicate_layout.replicatelayout 217:Project hierarchy looks like:
 {u'607938CE': [u'RS485Tranceiver2', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\RS485Tranceiver.sch'], u'6083EA55': [u'SignalsToSlave', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\SignalsToSlave.sch'], u'6087803B': [u'PTT_Sub', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\ISO1500.sch'], u'6087202B': [u'TX', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\ISO1500.sch'], u'60920279': [u'sheet60920273', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\filter.sch'], u'608421E5': [u'IsolatorGroup_A', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\IsolatorGroup.sch'], u'60A3C1D7': [u'5V_Non_Iso_B', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\5V_Non_Iso.sch'], u'60795F15': [u'RS485Tranceiver3', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\RS485Tranceiver.sch'], u'60A3C1C6': [u'5V_Non_Iso_A', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\5V_Non_Iso.sch'], u'6077B0D4': [u'RX', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\ISO1500.sch'], u'60727BD1': [u'RS485Tranceiver1', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\RS485Tranceiver.sch'], u'6091A70E': [u'filter', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\filter.sch'], u'60843FDF': [u'MasterInput', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\RS422.sch'], u'60797D2F': [u'RS485Tranceiver4', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\RS485Tranceiver.sch'], u'608DE7E0': [u'IsolatorGroup_B', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\IsolatorGroup.sch'], u'608751BF': [u'PTT_Main', u'C:\\Users\\Soeren\\Documents\\GitHub\\AR2ISS\\AR2ISS_Isolator\\ISO1500.sch']}
-05-03 19:59:37 replicate_layout.replicatelayout 225:getting a list of all footprints on board
-05-03 19:59:37 replicate_layout.action_replicate_layout 367:source anchor footprint is u'U5'
-Located on:[u'SignalsToSlave', u'IsolatorGroup_A', u'RX']
-With filenames:[u'SignalsToSlave.sch', u'IsolatorGroup.sch', u'ISO1500.sch']
-With sheet_id:[u'SignalsToSlave', u'IsolatorGroup_A', u'RX']
-05-03 19:59:37 replicate_layout.action_replicate_layout 371:Corresponding footprints are 
-[(u'U5', [u'SignalsToSlave', u'IsolatorGroup_A', u'RX']), (u'U1', [u'SignalsToSlave', u'IsolatorGroup_B', u'RX']), (u'U2', [u'SignalsToSlave', u'IsolatorGroup_B', u'TX']), (u'U3', [u'SignalsToSlave', u'IsolatorGroup_B', u'PTT_Main']), (u'U4', [u'SignalsToSlave', u'IsolatorGroup_B', u'PTT_Sub']), (u'U6', [u'SignalsToSlave', u'IsolatorGroup_A', u'TX']), (u'U7', [u'SignalsToSlave', u'IsolatorGroup_A', u'PTT_Main']), (u'U8', [u'SignalsToSlave', u'IsolatorGroup_A', u'PTT_Sub'])]
-05-03 19:59:37 replicate_layout.action_replicate_layout 384:Showing dialog
-05-03 19:59:37 replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(3829, -11)
-05-03 19:59:37 replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 3840, 2160)
-05-03 19:59:37 replicate_layout.action_replicate_layout 394:Display 1: wx.Rect(3840, 0, 3840, 2160)
-05-03 19:59:37 replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(7318, 162)
-05-03 19:59:37 replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(7005, 162)
-05-03 19:59:45 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'RX', file:u'ISO1500.sch'
-05-03 19:59:45 replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'SignalsToSlave', u'IsolatorGroup_A', u'RX']
-05-03 19:59:45 replicate_layout.replicatelayout 260:Footprints on the sheets:
-[u'U5', u'U1', u'U2', u'U3', u'U4', u'U6', u'U7', u'U8']
-05-03 19:59:45 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
-[u'/6083EA55/608421E5/6077B0D4/6073D069', u'/6083EA55/608DE7E0/6077B0D4/6073D069', u'/6083EA55/608DE7E0/6087202B/6073D069', u'/6083EA55/608DE7E0/608751BF/6073D069', u'/6083EA55/608DE7E0/6087803B/6073D069', u'/6083EA55/608421E5/6087202B/6073D069', u'/6083EA55/608421E5/608751BF/6073D069', u'/6083EA55/608421E5/6087803B/6073D069']
-05-03 19:59:45 replicate_layout.replicatelayout 279:All sheets to replicate:
-[[u'SignalsToSlave', u'IsolatorGroup_A', u'RX'], [u'SignalsToSlave', u'IsolatorGroup_B', u'RX'], [u'SignalsToSlave', u'IsolatorGroup_B', u'TX'], [u'SignalsToSlave', u'IsolatorGroup_B', u'PTT_Main'], [u'SignalsToSlave', u'IsolatorGroup_B', u'PTT_Sub'], [u'SignalsToSlave', u'IsolatorGroup_A', u'TX'], [u'SignalsToSlave', u'IsolatorGroup_A', u'PTT_Main'], [u'SignalsToSlave', u'IsolatorGroup_A', u'PTT_Sub']]
-05-03 19:59:45 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
-[[u'SignalsToSlave', u'IsolatorGroup_A', u'PTT_Main'], [u'SignalsToSlave', u'IsolatorGroup_A', u'PTT_Sub'], [u'SignalsToSlave', u'IsolatorGroup_A', u'RX'], [u'SignalsToSlave', u'IsolatorGroup_A', u'TX'], [u'SignalsToSlave', u'IsolatorGroup_B', u'PTT_Main'], [u'SignalsToSlave', u'IsolatorGroup_B', u'PTT_Sub'], [u'SignalsToSlave', u'IsolatorGroup_B', u'RX'], [u'SignalsToSlave', u'IsolatorGroup_B', u'TX']]
-05-03 19:59:45 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
-[[u'SignalsToSlave', u'IsolatorGroup_A', u'PTT_Main'], [u'SignalsToSlave', u'IsolatorGroup_A', u'PTT_Sub'], [u'SignalsToSlave', u'IsolatorGroup_A', u'TX'], [u'SignalsToSlave', u'IsolatorGroup_B', u'PTT_Main'], [u'SignalsToSlave', u'IsolatorGroup_B', u'PTT_Sub'], [u'SignalsToSlave', u'IsolatorGroup_B', u'RX'], [u'SignalsToSlave', u'IsolatorGroup_B', u'TX']]
-05-03 20:00:04 replicate_layout.action_replicate_layout 252:User canceled the dialog
+05-13 13:44:46 replicate_layout.replicatelayout 225:getting a list of all footprints on board
+05-13 13:44:46 replicate_layout.action_replicate_layout 367:source anchor footprint is u'U6'
+Located on:[u'SignalsToSlave', u'IsolatorGroup_A']
+With filenames:[u'SignalsToSlave.sch', u'IsolatorGroup.sch']
+With sheet_id:[u'SignalsToSlave', u'IsolatorGroup_A']
+05-13 13:44:46 replicate_layout.action_replicate_layout 371:Corresponding footprints are 
+[(u'U6', [u'SignalsToSlave', u'IsolatorGroup_A']), (u'U1', [u'SignalsToSlave', u'IsolatorGroup_B'])]
+05-13 13:44:46 replicate_layout.action_replicate_layout 384:Showing dialog
+05-13 13:44:46 replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(1, 0)
+05-13 13:44:46 replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 3840, 2160)
+05-13 13:44:46 replicate_layout.action_replicate_layout 394:Display 1: wx.Rect(3840, 0, 3840, 2160)
+05-13 13:44:46 replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(3467, 173)
+05-13 13:44:46 replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(3154, 173)
+05-13 13:44:51 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'IsolatorGroup_A', file:u'IsolatorGroup.sch'
+05-13 13:44:51 replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'SignalsToSlave', u'IsolatorGroup_A']
+05-13 13:44:51 replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'U6', u'U1']
+05-13 13:44:51 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/6083EA55/608421E5/60A0F4ED', u'/6083EA55/608DE7E0/60A0F4ED']
+05-13 13:44:51 replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'SignalsToSlave', u'IsolatorGroup_A'], [u'SignalsToSlave', u'IsolatorGroup_B']]
+05-13 13:44:51 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[[u'SignalsToSlave', u'IsolatorGroup_A'], [u'SignalsToSlave', u'IsolatorGroup_B']]
+05-13 13:44:51 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[[u'SignalsToSlave', u'IsolatorGroup_B']]
+05-13 13:45:00 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'SignalsToSlave', file:u'SignalsToSlave.sch'
+05-13 13:45:00 replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'SignalsToSlave']
+05-13 13:45:00 replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'U6', u'U1']
+05-13 13:45:00 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/6083EA55/608421E5/60A0F4ED', u'/6083EA55/608DE7E0/60A0F4ED']
+05-13 13:45:00 replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'SignalsToSlave'], [u'SignalsToSlave']]
+05-13 13:45:00 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[[u'SignalsToSlave']]
+05-13 13:45:00 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[]
+05-13 13:45:03 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'IsolatorGroup_A', file:u'IsolatorGroup.sch'
+05-13 13:45:03 replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'SignalsToSlave', u'IsolatorGroup_A']
+05-13 13:45:03 replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'U6', u'U1']
+05-13 13:45:03 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/6083EA55/608421E5/60A0F4ED', u'/6083EA55/608DE7E0/60A0F4ED']
+05-13 13:45:03 replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'SignalsToSlave', u'IsolatorGroup_A'], [u'SignalsToSlave', u'IsolatorGroup_B']]
+05-13 13:45:03 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[[u'SignalsToSlave', u'IsolatorGroup_A'], [u'SignalsToSlave', u'IsolatorGroup_B']]
+05-13 13:45:03 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[[u'SignalsToSlave', u'IsolatorGroup_B']]
+05-13 13:45:13 replicate_layout.action_replicate_layout 252:User canceled the dialog
